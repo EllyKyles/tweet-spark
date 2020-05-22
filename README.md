@@ -11,7 +11,7 @@
   To create and start a container with Spark, PySpark, SciPy, and Jupyter, run the following command in your terminal.
 
 ```
-$ docker run --name sparkbook -p 8881:8888 -v "$PWD":/home/jovyan/work jupyter/pyspark-notebook start.sh jupyter lab --LabApp.token=''
+$ docker run --name sparkbook -p 8882:8888 -v "$PWD":/home/jovyan/work jupyter/pyspark-notebook start.sh jupyter lab --LabApp.token=''
 ```
 
 - To start this container up in the future, you only need to type
