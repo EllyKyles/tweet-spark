@@ -28,7 +28,8 @@ $ docker start sparkbook
 
 - install geopandas packages on the container
 
-```$ docker exec -it sparkbook bash
+```
+$ docker exec -it sparkbook bash
 jovyan@839db31a6a90:~$ pip install geopandas
 jovyan@839db31a6a90:~$ pip install descartes
 ```
