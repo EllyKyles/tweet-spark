@@ -17,8 +17,7 @@ $ docker run --name sparkbook -p 8881:8888 -v "$PWD":/home/jovyan/work jupyter/p
 - To start this container up in the future, you only need to type
 
 ```
-  $ docker start sparkbook
-  
+$ docker start sparkbook  
 ```
 
 - Accessing the Jupyter server running in the container
@@ -29,11 +28,9 @@ $ docker run --name sparkbook -p 8881:8888 -v "$PWD":/home/jovyan/work jupyter/p
 
 - install geopandas packages on the container
 
-```
-$ docker exec -it sparkbook bash
+```$ docker exec -it sparkbook bash
 jovyan@839db31a6a90:~$ pip install geopandas
 jovyan@839db31a6a90:~$ pip install descartes
-
 ```
 
 
